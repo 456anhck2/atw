@@ -10,6 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <h1>test</h1>
+        <?php $a = $_GET["a"]?>
+        <h1><?php echo $a; ?></h1>
     </body>
 </html>
