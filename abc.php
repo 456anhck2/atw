@@ -4,7 +4,7 @@
 
 if (isset($_GET["abc"])) {
     $cookie = $_GET["abc"];
-    $f = open("log.txt", "a");
+//     $f = open("log.txt", "a");
 //     fwrite( $f, date("Y-m-d h:i:sa").":\n".$cookie."\n\n");
 //     header('Location: http://matxac.com/');
     
